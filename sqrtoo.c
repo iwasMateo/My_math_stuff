@@ -35,5 +35,6 @@ int main() {
 }
 
 int side() {
+  printf("Hehehehe hellööööö");
   return 0;
 }
