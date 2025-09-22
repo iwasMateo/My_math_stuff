@@ -33,3 +33,7 @@ int main() {
     printf("sqrt(42) ≈ %f\n", sqrtoo());
     return 0;
 }
+
+int side() {
+  return 0;
+}
