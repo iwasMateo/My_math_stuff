@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float main()
+float sqrtoo()
 {
 	int nmbr = 42;
 	float temp1 = 0;
