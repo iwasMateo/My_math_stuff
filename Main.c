@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+float main()
 {
 	int nmbr = 42;
 	float temp1 = 0;
