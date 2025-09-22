@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float sqrtoo(int nmbr) {
+float sqrtoo(float nmbr) {
     float temp1 = 0.0f;
     float temp2 = 0.0f;
     int tries = 1;
@@ -30,8 +30,8 @@ float sqrtoo(int nmbr) {
 
 int main() {
   printf("Input squared number here: ");
-  int y;
-  scanf("%d", &y);
+  float y;
+  scanf("%f", &y);
   printf("sqrt(42) ≈ %f\n", sqrtoo(y));
   return 0;
 }
