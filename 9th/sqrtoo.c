@@ -32,7 +32,7 @@ int main() {
   printf("Input squared number here: ");
   float y;
   scanf("%f", &y);
-  printf("sqrt(42) ≈ %f\n", sqrtoo(y));
+  printf("sqrt(%f y) ≈ %f\n", sqrtoo(y));
   return 0;
 }
 
