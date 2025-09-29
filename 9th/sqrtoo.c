@@ -13,10 +13,10 @@ float sqrtoo(float nmbr) {
             temp2 = temp1;
             temp1 -= 1.0f / tries;
             result = temp2;
-            tries *= 10; // refine step size
+            tries *= 10; // Genauigkeit eröhen oder wie man das nennt
         } 
         else if (temp1 * temp1 == nmbr) {
-            result = temp1;
+            result = temp1; // unwarscheinlich aber möglich, dass das passiert
             printf("Found exact square root\n");
             return result;
         } 
